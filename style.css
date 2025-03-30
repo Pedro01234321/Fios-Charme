@@ -1,0 +1,270 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #5a2d82;
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #8a2be2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.botao:hover {
+    background: #6a1bbd;
+}
+}
+
+header {
+    background: #D8BFD8;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.banner {
+    background: url('banner.jpg') no-repeat center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.banner h2 {
+    font-size: 24px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #D8BFD8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}.produtos {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.produto {
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.produto p {
+    font-size: 16px;
+    color: #333;
+}
+
+.produto a {
+    display: inline-block;
+    background-color: #D8BFD8;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}.depoimentos {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.depoimentos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.depoimento {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.depoimento p {
+    font-style: italic;
+    color: #555;
+}
+
+.depoimento h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+main {
+    margin-top: 80px; /* Adiciona espaço abaixo do menu fixo */
+    padding: 20px;
+} /* Para evitar que o conteúdo fique escondido atrás do menu fixo */
+}.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+}
+.resumo-compra {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.botao-finalizar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #D8BFD8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao-ver-mais {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #D8BFD8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.botao-ver-mais:hover {
+    background: #C0A0C0;
+}
+form {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produto {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .resumo-compra, form {
+        width: 90%;
+    }
+}.banner-promocao {
+    background: #ff4500;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.banner-promocao .botao {
+    background: white;
+    color: #ff4500;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
